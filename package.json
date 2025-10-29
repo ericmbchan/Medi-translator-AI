@@ -1,0 +1,26 @@
+{
+  "name": "medical-translator-cantonese",
+  "version": "1.0.0",
+  "description": "Medical English to Cantonese translation app with voice",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "server": "node server/server.js"
+  },
+  "keywords": [
+    "medical",
+    "translation",
+    "cantonese"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "openai": "^4.104.0"
+  }
+}
